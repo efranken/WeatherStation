@@ -1,0 +1,15 @@
+fs.writefile sync
+vs
+fs.writefile
+
+var fs = require("fs")
+
+fs.readfile to read
+
+https://github.com/scout-app/scout-app/blob/master/cultures.js
+
+stream in node
+	data comes in as chunks rather than reading the entire file
+	entire file would be too much ram
+
+try streaming

@@ -1,0 +1,11 @@
+var fs = require('fs')
+fs.readFile(inputFile, 'utf8', function (err,data) {
+  if (err) {
+    return console.log(err);
+  }
+  var result = data.replace('Date/Time', 'DateTime');
+
+  fs.writeFile(inputFile, result, 'utf8', function (err) {
+     if (err) return console.log(err);
+  });
+});

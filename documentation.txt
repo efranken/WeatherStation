@@ -1,0 +1,8 @@
+weather station
+
+decided to use node, for whatever reason
+
+found csv2html converter
+tailored it to my needs
+figured out how to make the template file work
+had an issue with the / of the dump that the weather station did

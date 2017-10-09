@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CSS -->
+<style> 
+table, th, td {
+    border: 1px solid black;
+}
+</style> <!-- /CSS -->
+
+</head>
+
+<body>
+
+<table>
+	<tr>
+		<th>Date/Time</th>
+		<th>ABP</th>
+		<th>Temp</th>
+		<th>Hum</th>
+		<th>WD</th>
+		<th>WS</th>
+	<tr>
+		<!--all names here follow the title columns of the .csv file -->
+		<th>{{=DT}}</th>
+		<th>{{=ABP}}</th>
+		<th>{{=Temp}}</th>
+		<th>{{=Hum}}</th>
+		<th>{{=WD}}</th>
+		<th>{{=WS}}</th>
+	</tr>
+</table>
+
+</body>
+</html>
